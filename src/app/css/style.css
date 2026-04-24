@@ -4,11 +4,6 @@
 .text-primary{
     color: #677AC9;
 }
-.hexagon{
-    clip-path: polygon( 25% 5%,
-    75% 5%,
-    100% 50%,
-    75% 95%,
-    25% 95%,
-    0% 50% );
+.custom-shadow {
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.4);
 }
