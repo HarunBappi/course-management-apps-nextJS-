@@ -1,0 +1,14 @@
+.bg-primary{
+    background-color: #677AC9;
+}
+.text-primary{
+    color: #677AC9;
+}
+.hexagon{
+    clip-path: polygon( 25% 5%,
+    75% 5%,
+    100% 50%,
+    75% 95%,
+    25% 95%,
+    0% 50% );
+}
