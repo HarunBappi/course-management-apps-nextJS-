@@ -4,6 +4,9 @@
 .text-primary{
     color: #677AC9;
 }
+.card-primary{
+    background-color: #edecf0;
+}
 .custom-shadow {
   box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.4);
 }

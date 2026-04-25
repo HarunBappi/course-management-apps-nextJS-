@@ -66,12 +66,12 @@ const Footer = () => {
       </div>
       {/* Bottom */}
       <div className="bg-[#4B4D4F] py-3">
-        <div className="w-10/12 mx-auto">
-            <div className="flex flex-col md:flex-row items-center gap-5 justify-between">
-            <div className="flex-1">
-                <h1 className="text-gray-400 text-sm">Theme by &copy; <span className="text-white">CodeCraft Academy</span> All Right Reserved</h1>
+        <div className="md:w-10/12 mx-auto px-3 md:px-0">
+            <div className="flex items-center gap-5 justify-between">
+            <div className="md:flex-1">
+                <h1 className="text-gray-400 text-xs md:text-sm">Theme by &copy; <span className="text-white">CodeCraft Academy</span> All Right Reserved</h1>
             </div>
-            <div className="flex items-center gap-3 flex-1 md:justify-center text-white ">
+            <div className="flex items-center gap-3 md:flex-1 justify-center text-white ">
                 <a href=""><FaFacebookF className="bg-primary p-1 w-5 h-5 rounded-full"></FaFacebookF></a>
                 <a href=""><FaTwitter className="bg-primary p-1 w-5 h-5 rounded-full"></FaTwitter></a>
                 <a href=""><FaGooglePlus className="bg-primary p-1 w-5 h-5 rounded-full"></FaGooglePlus></a>

@@ -1,3 +1,5 @@
+import Banner from "./components/HomePage/Banner/Banner";
+import FeatureCourse from "./components/HomePage/FeatureCourse/FeatureCourse";
 import Footer from "./components/Layout/Footer";
 import Navbar from "./components/Layout/Navbar";
 
@@ -7,6 +9,8 @@ export default function Home() {
     <div>
        
         <Navbar></Navbar>
+        <Banner></Banner>
+        <FeatureCourse></FeatureCourse>
        <Footer></Footer>
     </div>
   );
