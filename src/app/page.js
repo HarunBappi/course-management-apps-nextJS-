@@ -1,3 +1,4 @@
+import CourseCategories from "./components/CourseCategories/CourseCategories";
 import Banner from "./components/HomePage/Banner/Banner";
 import FeatureCourse from "./components/HomePage/FeatureCourse/FeatureCourse";
 import Footer from "./components/Layout/Footer";
@@ -11,6 +12,7 @@ export default function Home() {
         <Navbar></Navbar>
         <Banner></Banner>
         <FeatureCourse></FeatureCourse>
+        <CourseCategories></CourseCategories>
        <Footer></Footer>
     </div>
   );
