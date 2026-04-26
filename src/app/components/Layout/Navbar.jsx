@@ -13,9 +13,9 @@ const Navbar = () => {
         {name: "Contact", path: "/contact"}
     ]
   return (
-    <div className="navbar custom-shadow">
+    <div className="navbar custom-shadow sticky top-0 z-50 bg-white">
       <div className="w-11/12 mx-auto flex items-center">
-        <div className="navbar-start">
+        <div className="navbar-start w-full md:w-[50%]">
         {/* Mobile  */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

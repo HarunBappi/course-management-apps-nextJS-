@@ -8,7 +8,7 @@ const featuredCourses = [
     duration: "12h",
     rating: 4.8,
     price: 79,
-    image: "/images/course1.jpg"
+    image: "/images/course (7).jpg"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const featuredCourses = [
     duration: "9h",
     rating: 4.7,
     price: 59,
-    image: "/images/course2.jpg"
+    image: "/images/course (1).jpg"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const featuredCourses = [
     duration: "7h",
     rating: 4.6,
     price: 49,
-    image: "/images/course3.jpg"
+    image: "/images/course (4).jpg"
   }
 ];
 

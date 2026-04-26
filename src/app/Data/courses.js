@@ -7,7 +7,9 @@ const courses = [
     totalLectures: 25,
     duration: "8h 30m",
     rating: 4.7,
-    price: 49
+    price: 49,
+    image: "/images/course (1).jpg",
+    description: "Learn the fundamentals of UI/UX design including wireframing, prototyping, and user research to build user-friendly digital products."
   },
   {
     id: 2,
@@ -17,7 +19,9 @@ const courses = [
     totalLectures: 30,
     duration: "10h",
     rating: 4.8,
-    price: 59
+    price: 59,
+    image: "/images/course (2).jpg",
+    description: "Master graphic design tools like Photoshop and Illustrator while learning color theory, typography, and branding principles."
   },
   {
     id: 3,
@@ -27,7 +31,9 @@ const courses = [
     totalLectures: 20,
     duration: "6h",
     rating: 4.5,
-    price: 39
+    price: 39,
+    image: "/images/course (4).jpg",
+    description: "Understand the basics of digital marketing including SEO, social media marketing, and online advertising strategies."
   },
   {
     id: 4,
@@ -37,7 +43,9 @@ const courses = [
     totalLectures: 28,
     duration: "9h",
     rating: 4.6,
-    price: 45
+    price: 45,
+    image: "/images/course (5).jpg",
+    description: "Learn how to grow brands on social media platforms through content strategy, engagement techniques, and analytics."
   },
   {
     id: 5,
@@ -47,7 +55,9 @@ const courses = [
     totalLectures: 50,
     duration: "20h",
     rating: 4.9,
-    price: 99
+    price: 99,
+    image: "/images/course (7).jpg",
+    description: "Become a full stack developer by learning frontend and backend technologies including React, Node.js, and databases."
   },
   {
     id: 6,
@@ -57,7 +67,9 @@ const courses = [
     totalLectures: 40,
     duration: "15h",
     rating: 4.8,
-    price: 89
+    price: 89,
+    image: "/images/course (8).jpg",
+    description: "Build modern web applications using React and Next.js with hands-on projects and real-world examples."
   },
   {
     id: 7,
@@ -67,7 +79,9 @@ const courses = [
     totalLectures: 35,
     duration: "12h",
     rating: 4.7,
-    price: 79
+    price: 79,
+    image: "/images/course (9).jpg",
+    description: "Deep dive into advanced JavaScript topics such as closures, async programming, and performance optimization."
   },
   {
     id: 8,
@@ -77,7 +91,9 @@ const courses = [
     totalLectures: 22,
     duration: "7h",
     rating: 4.6,
-    price: 55
+    price: 55,
+    image: "/images/course (10).jpg",
+    description: "Learn the basics of cybersecurity, including threats, vulnerabilities, and how to protect systems and data."
   },
   {
     id: 9,
@@ -87,7 +103,9 @@ const courses = [
     totalLectures: 26,
     duration: "9h",
     rating: 4.7,
-    price: 65
+    price: 65,
+    image: "/images/course (11).jpg",
+    description: "Understand cloud computing concepts and services like AWS, Azure, and cloud deployment models."
   },
   {
     id: 10,
@@ -97,7 +115,9 @@ const courses = [
     totalLectures: 32,
     duration: "11h",
     rating: 4.8,
-    price: 70
+    price: 70,
+    image: "/images/course (12).jpg",
+    description: "Start your programming journey with Python by learning syntax, logic building, and real-world applications."
   },
   {
     id: 11,
@@ -107,7 +127,9 @@ const courses = [
     totalLectures: 18,
     duration: "5h",
     rating: 4.5,
-    price: 35
+    price: 35,
+    image: "/images/course (3).jpg",
+    description: "Design modern UI interfaces using Figma and learn prototyping, components, and collaboration features."
   },
   {
     id: 12,
@@ -117,7 +139,9 @@ const courses = [
     totalLectures: 24,
     duration: "8h",
     rating: 4.6,
-    price: 50
+    price: 50,
+    image: "/images/course (6).jpg",
+    description: "Master SEO techniques to rank websites higher on search engines and drive organic traffic effectively."
   }
 ];
 

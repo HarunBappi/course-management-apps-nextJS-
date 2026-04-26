@@ -4,14 +4,14 @@ import React from "react";
 const CourseCategories = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl font-semibold mb-3">
+      <h1 className="text-center text-4xl font-semibold mb-2">
         Course Categories
       </h1>
       <div className="py-4 w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Design */}
         <div className="shadow-md p-2">
           <Image
-            src="/images/categories4.jpg"
+            src="/images/course (1).jpg"
             alt=""
             width={200}
             height={300}
@@ -24,7 +24,7 @@ const CourseCategories = () => {
         {/* Marketing */}
         <div className="shadow-md p-2">
           <Image
-            src="/images/categories3.jpg"
+            src="/images/course (5).jpg"
             alt=""
             width={200}
             height={300}
@@ -37,7 +37,7 @@ const CourseCategories = () => {
         {/* Web Development */}
         <div className="shadow-md p-2">
           <Image
-            src="/images/categories2.jpg"
+            src="/images/course (8).jpg"
             alt=""
             width={200}
             height={300}
@@ -50,7 +50,7 @@ const CourseCategories = () => {
         {/* IT & Software */}
         <div className="shadow-md p-2">
           <Image
-            src="/images/categories1.jpg"
+            src="/images/course (11).jpg"
             alt=""
             width={200}
             height={300}
