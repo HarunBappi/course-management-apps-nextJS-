@@ -8,12 +8,9 @@ import Navbar from "./components/Layout/Navbar";
 export default function Home() {
   return (
     <div>
-       
-        <Navbar></Navbar>
         <Banner></Banner>
         <FeatureCourse></FeatureCourse>
         <CourseCategories></CourseCategories>
-       <Footer></Footer>
     </div>
   );
 }

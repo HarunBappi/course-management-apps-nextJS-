@@ -8,7 +8,7 @@ const Navbar = () => {
     const pathname = usePathname()
     const menu = [
         {name: "Home", path: "/"},
-        {name: "courses", path:"/courses"},
+        {name: "Courses", path:"/courses"},
         {name: "About", path:"/about"},
         {name: "Contact", path: "/contact"}
     ]
