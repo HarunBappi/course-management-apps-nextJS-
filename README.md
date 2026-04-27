@@ -70,10 +70,10 @@ npm run dev
 
 ##  Live Demo
 
- (Add your Vercel link here)
+ https://course-management-apps-next-js.vercel.app/
 
 ---
 
 ##  GitHub Repository
 
- (Add your GitHub link here)
+ (https://github.com/HarunBappi/course-management-apps-nextJS-)
