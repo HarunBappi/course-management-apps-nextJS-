@@ -5,6 +5,7 @@ import { FaStar } from "react-icons/fa";
 
 const Ourcourses = ({ courses }) => {
   const {
+    id,
     category,
     image,
     instructor,
@@ -15,7 +16,7 @@ const Ourcourses = ({ courses }) => {
     rating,
   } = courses;
   return (
-    <Link href="">
+    <Link href={`/courses/${id}`}>
       <div className="card card-primary shadow-sm">
         <figure>
           <Image

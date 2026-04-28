@@ -33,9 +33,9 @@ This is a Course Management web application built using Next.js and Firebase Aut
 | ------------- | -------------------------- |
 | /             | Home Page                  |
 | /about        | About Page                 |
-| /items        | All Courses                |
-| /items/[id]   | Course Details             |
-| /items/manage | Manage Courses (Protected) |
+| /courses        | All Courses                |
+| /courses/[id]   | Course Details             |
+| /courses/manage | Manage Courses (Protected) |
 | /login        | Login Page                 |
 | /register     | Register Page              |
 
