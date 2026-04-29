@@ -4,7 +4,7 @@ import React from "react";
 const CourseCategories = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl font-semibold mb-2">
+      <h1 className="text-center text-xl md:text-4xl font-semibold mb-2">
         Course Categories
       </h1>
       <div className="py-4 w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -15,7 +15,7 @@ const CourseCategories = () => {
             alt=""
             width={200}
             height={300}
-            className="border border-blue-300 custom-shadow h-30"
+            className="border border-blue-300 custom-shadow h-30 w-full"
           ></Image>
           <h1 className="text-primary text-sm font-semibold mt-2 text-center">
             Design
@@ -28,7 +28,7 @@ const CourseCategories = () => {
             alt=""
             width={200}
             height={300}
-            className="border border-blue-300  custom-shadow h-30"
+            className="border border-blue-300  custom-shadow h-30 w-full"
           ></Image>
           <h1 className="text-primary text-sm font-semibold mt-2 text-center">
             Marketing
@@ -41,7 +41,7 @@ const CourseCategories = () => {
             alt=""
             width={200}
             height={300}
-            className="border border-blue-300 custom-shadow h-30"
+            className="border border-blue-300 custom-shadow h-30 w-full"
           ></Image>
           <h1 className="text-primary text-sm font-semibold mt-2 text-center">
             Web Development
@@ -54,7 +54,7 @@ const CourseCategories = () => {
             alt=""
             width={200}
             height={300}
-            className="border border-blue-300 custom-shadow h-30"
+            className="border border-blue-300 custom-shadow h-30 w-full"
           ></Image>
           <h1 className="text-primary text-sm font-semibold mt-2 text-center">
             IT & Software

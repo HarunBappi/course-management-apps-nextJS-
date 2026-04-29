@@ -40,7 +40,7 @@ const Page = () => {
             </div>
             {/*  rating  */}
             <div className="border-t border-blue-300 mt-2 pt-5">
-              <div className="flex items-center gap-10">
+              <div className="grid grid-cols-2 lg:grid-cols-3 items-center gap-3 lg:gap-10">
                 <p className="flex items-center  text-gray-500 text-xs rounded gap-1 mt-1">
                   <FaStar className="text-primary"></FaStar>
                   {singleCourse.rating} (138 reviews)

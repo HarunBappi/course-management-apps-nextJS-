@@ -8,10 +8,10 @@ import React, { useEffect, useState } from "react";
 const FeatureCourse = () => {
   return (
     <div className="py-10">
-      <h1 className="text-center text-4xl font-semibold mb-4">
+      <h1 className="text-center text-xl md:text-4xl font-semibold mb-4">
         Our Feature Courses
       </h1>
-      <div className="w-9/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
         {featuredCourses.map((course) => (
           <div key={course.id} className="card card-primary shadow-sm">
             <figure>
